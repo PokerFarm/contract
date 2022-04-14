@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Staking/Staking.sol": "BurnCoin"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Staking/Staking.sol": {
+			"keccak256": "0x00aba415af6f59f03c7af06801836b4cb4e00abe265ccc4541761a555971b048",
+			"urls": [
+				"bzz-raw://6db57a7027f58d2317bb38bf0d84391684e4e2bf154ffc80e923ea2a11605c83",
+				"dweb:/ipfs/Qmb4H2kScw7HxHtHr2kcVRWFi4aGyQS7KTBUB37Qc1wAA5"
+			]
+		},
+		"_lib/Context.sol": {
+			"keccak256": "0x77ec8b534124690b04754bc03aaa982479b91b9f7508bed54455c161e93a02e0",
+			"urls": [
+				"bzz-raw://cf08de24c3951531b87b85a75157d4b26ddcb8952452672f9da9f63c06982e9f",
+				"dweb:/ipfs/QmaUzytpjpYHNTXw3Hy4cdKmNoU5PWpyMZBhorK69pk8sA"
+			]
+		},
+		"_lib/ERC20.sol": {
+			"keccak256": "0xdc6cb601c721e481508fb2c6d4688991ed3d6a3e83dc84ee590f629323e7361d",
+			"urls": [
+				"bzz-raw://df1a0194724dc2c9ab0e8f6c033655b7cc81bdca6ebc27c844c8926d860a46a9",
+				"dweb:/ipfs/QmTp4LrAah7ymjEhuFx9QiDbYwLj9ZWedsaoNthXv8vqU6"
+			]
+		},
+		"_lib/IERC20.sol": {
+			"keccak256": "0x943e16fe1fdaa84c7329da3fa5aab8ce507ff7b6776a3925e97ffc0beef9692a",
+			"urls": [
+				"bzz-raw://f7727696ef766547aaa34152d06a443c5c8924fa363f47e51335d0e3d619c194",
+				"dweb:/ipfs/QmRYgfYhpyjHaQjSJMG5fDdDGbQA9eXCGhuSRnwGfoSyCD"
+			]
+		},
+		"_lib/Ownable.sol": {
+			"keccak256": "0x9bb16a0785f0f888e4b470311e02af5bb72f0663d7be20eb7a60902e29e35406",
+			"urls": [
+				"bzz-raw://014bf309648c0793be70899bc260d7094e17de223ed8eaebae9327643623cf93",
+				"dweb:/ipfs/QmR4LhypLf6CVNvqxgDDAJ4E9E5h3wqV6RT8g7jERZdVLT"
+			]
+		},
+		"_lib/SafeMath.sol": {
+			"keccak256": "0x7a012a5277471415a885995ba8a47238d3dc4cd950bdfe1726ef82aaa073edde",
+			"urls": [
+				"bzz-raw://619a31a30761b729b8c07902453f79326582f3ef6c0b216057b69edad4319f67",
+				"dweb:/ipfs/QmRNyXHBY2WkiQ9Me4PREJU87WEg5z9QpVwxcs1cqnQsxN"
+			]
+		}
+	},
+	"version": 1
+}

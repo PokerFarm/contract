@@ -1,0 +1,168 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IPokerToken",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "AdminWrite",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "Claim",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "ClaimAll",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "claim",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "claimAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "claims",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_ads",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_num",
+						"type": "uint256[]"
+					}
+				],
+				"name": "write",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Active/Active.sol": "Active"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Active/Active.sol": {
+			"keccak256": "0xa26a5796b2898a5bd56256d6205f0eb97c869a22b5ff6b72ade92fece9c4d2ad",
+			"urls": [
+				"bzz-raw://500a6585c1636021137b078143ff853e3df2ef1db1b010e720fd1ed3a7711665",
+				"dweb:/ipfs/QmPAVFv4UxBPjEH7oG7esZiEvWwtcmkeLJKbQE2DtR5E2U"
+			]
+		},
+		"_lib/SafeMath.sol": {
+			"keccak256": "0x7a012a5277471415a885995ba8a47238d3dc4cd950bdfe1726ef82aaa073edde",
+			"urls": [
+				"bzz-raw://619a31a30761b729b8c07902453f79326582f3ef6c0b216057b69edad4319f67",
+				"dweb:/ipfs/QmRNyXHBY2WkiQ9Me4PREJU87WEg5z9QpVwxcs1cqnQsxN"
+			]
+		}
+	},
+	"version": 1
+}

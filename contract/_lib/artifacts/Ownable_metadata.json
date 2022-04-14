@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"constructor": {
+					"details": "Initializes the contract setting the deployer as the initial owner."
+				},
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"_lib/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"_lib/Context.sol": {
+			"keccak256": "0x77ec8b534124690b04754bc03aaa982479b91b9f7508bed54455c161e93a02e0",
+			"urls": [
+				"bzz-raw://cf08de24c3951531b87b85a75157d4b26ddcb8952452672f9da9f63c06982e9f",
+				"dweb:/ipfs/QmaUzytpjpYHNTXw3Hy4cdKmNoU5PWpyMZBhorK69pk8sA"
+			]
+		},
+		"_lib/Ownable.sol": {
+			"keccak256": "0x9bb16a0785f0f888e4b470311e02af5bb72f0663d7be20eb7a60902e29e35406",
+			"urls": [
+				"bzz-raw://014bf309648c0793be70899bc260d7094e17de223ed8eaebae9327643623cf93",
+				"dweb:/ipfs/QmR4LhypLf6CVNvqxgDDAJ4E9E5h3wqV6RT8g7jERZdVLT"
+			]
+		}
+	},
+	"version": 1
+}

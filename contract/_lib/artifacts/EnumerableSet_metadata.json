@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"_lib/EnumerableSet.sol": "EnumerableSet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"_lib/EnumerableSet.sol": {
+			"keccak256": "0xac75a462b49c94c8e75be24ccc1e1a01275eb6cf853df038c5925ac516ca8b4c",
+			"urls": [
+				"bzz-raw://26d939faaece20e35a5c238810dd7bf34fc02a933e96889955603323b09d9824",
+				"dweb:/ipfs/QmVXfhHT8jyerQ9iPAFy9opwmd3KytEvCy3T6kterL7csE"
+			]
+		}
+	},
+	"version": 1
+}
